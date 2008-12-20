@@ -1,0 +1,5 @@
+2008-12-20 09:18:46 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [CORE/cake/libs/debugger.php, line 556]
+2008-12-20 09:19:09 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [CORE/cake/libs/debugger.php, line 556]
+2008-12-20 09:20:15 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [CORE/cake/libs/debugger.php, line 556]
+2008-12-20 09:20:16 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [CORE/cake/libs/debugger.php, line 556]
+2008-12-20 09:25:10 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [CORE/cake/libs/debugger.php, line 556]
