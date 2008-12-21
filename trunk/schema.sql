@@ -30,7 +30,7 @@ CREATE TABLE `clients` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -39,7 +39,6 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `clients` WRITE;
 /*!40000 ALTER TABLE `clients` DISABLE KEYS */;
-INSERT INTO `clients` VALUES (1,'Airtop Technology Group, Inc','ATG','590 Menlo Drive, Suite 5 Rocklin, CA 95765','2008-12-20 23:58:05','2008-12-20 23:58:05');
 /*!40000 ALTER TABLE `clients` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -293,7 +292,7 @@ CREATE TABLE `projects` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -302,7 +301,6 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `projects` WRITE;
 /*!40000 ALTER TABLE `projects` DISABLE KEYS */;
-INSERT INTO `projects` VALUES (1,1,'NetOffice3','Development work on NetOffice3',1,'2008-12-21 00:09:10','2008-12-21 01:01:01');
 /*!40000 ALTER TABLE `projects` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -351,7 +349,6 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `projects_users` WRITE;
 /*!40000 ALTER TABLE `projects_users` DISABLE KEYS */;
-INSERT INTO `projects_users` VALUES (4,1,1);
 /*!40000 ALTER TABLE `projects_users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -531,7 +528,6 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Kyle Klaus','kklaus','sha*twt',0,'kklaus@airtop.net','','',1,'2008-12-20 23:58:20','2008-12-20 23:58:20','0000-00-00 00:00:00'),(2,'Jeramie Wheeler','jwheeler','atg!2005',0,'jwheeler@airtop.net','','',1,'2008-12-21 01:00:36','2008-12-21 01:00:36','0000-00-00 00:00:00');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -544,4 +540,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-12-21 10:26:36
+-- Dump completed on 2008-12-21 21:20:42
