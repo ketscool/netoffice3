@@ -30,11 +30,12 @@
 	<?php
 		echo $html->meta('icon') . "\n";
 		echo $html->css('VectorLover') . "\n";
+		echo $html->css('icons') . "\n";
 		echo $scripts_for_layout . "\n";
 	?>
 		
-	<script type="text/JavaScript" src="/netoffice3/js/prototype.js"></script>
-	<script type="text/JavaScript" src="/netoffice3/js/scriptaculous.js?load=effects"></script>
+	<script type="text/JavaScript" src="/js/prototype.js"></script>
+	<script type="text/JavaScript" src="/js/scriptaculous.js"></script>
 	<script type="text/javascript">
 		setTimeout("new Effect.Opacity('flashWrapper', { from: 1, to: 0 });",1500);
 		setTimeout("new Effect.BlindUp('flashWrapper');",1500);
@@ -61,29 +62,19 @@
 	<!-- navigation starts-->	
 	<div  id="nav">
 		<ul>
-			<li><?php echo $html->link('Clients', '/clients/'); ?></li>
-			<li><?php echo $html->link('Projects', '/projects/'); ?></li>
+			<li <?php if( $session->params['controller'] == 'clients') { echo 'id="current"'; } ?>><?php echo $html->link('Clients', '/clients/'); ?></li>
+			<li <?php if( $session->params['controller'] == 'projects') { echo 'id="current"'; } ?>><?php echo $html->link('Projects', '/projects/'); ?></li>
 		</ul>
 	<!-- navigation ends-->	
 	</div>
 	
-	<?php echo $html->getCrumbs(); ?>
+	<!-- flash messages-->	
+	<div id="flashWrapper"><?php $session->flash(); ?></div>
 	
 	<!-- content starts -->
 	<div id="content">
-	
-		<div id="main">		
-			<div id="flashWrapper"><?php $session->flash(); ?></div>
-			<?php echo $content_for_layout; ?>
-		<!-- main ends -->	
-		</div>
-				
-		<div id="sidebar">
-			<h3>About</h3>			
-			
-			<p>&nbsp;</p>
-		<!-- sidebar ends -->		
-		</div>		
+		
+		<?php echo $content_for_layout; ?>
 		
 	<!-- content ends-->	
 	</div>

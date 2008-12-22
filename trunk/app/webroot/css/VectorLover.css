@@ -24,12 +24,10 @@ body {
 /* links */
 a, a:visited {	
 	color: #79A325;
-	background: inherit;
 	text-decoration: none;
 }
 a:hover {
 	color: #73471B;
-	background: inherit;
 	text-decoration: underline;
 }
 
@@ -521,12 +519,16 @@ ol.commentlist {
 }
 
 /* messages */
+#flashWrapper {
+	margin: 0 auto;
+	width: 910px;
+}
 .message {
 	background-color: #75a838;
 	color: #FFFFFF;
 	text-align: left;
 	padding: 8px;
-	margin: 10px 0;
+	margin-bottom: 10px;
 }
 .message a {
 	color: #FFFFFF;

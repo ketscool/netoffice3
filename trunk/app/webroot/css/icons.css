@@ -31,3 +31,8 @@
 .user-add { background-image: url(icons/user_add.png); }
 .user-delete { background-image: url(icons/user_edit.png); }
 .user-edit { background-image: url(icons/user_delete.png); }
+
+.note { background-image: url(icons/note.png); }
+.note-add { background-image: url(icons/note_add.png); }
+.note-delete { background-image: url(icons/note_edit.png); }
+.note-edit { background-image: url(icons/note_delete.png); }

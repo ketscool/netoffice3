@@ -3,6 +3,8 @@ class ClientsController extends AppController {
 
 	var $name = 'Clients';
 	var $helpers = array('Html', 'Form');
+	
+	
 
 	function index() {
 		$this->Client->recursive = 0;
