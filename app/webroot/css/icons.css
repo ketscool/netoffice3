@@ -1,0 +1,33 @@
+/* Generic icon layout */
+.icon {
+	padding-left: 20px;
+	background-image: url(icons/no-icon.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+/* Setup specific icons */
+.client { background-image: url(icons/client.png); }
+.client-add { background-image: url(icons/client_add.png); }
+.client-delete { background-image: url(icons/client_edit.png); }
+.client-edit { background-image: url(icons/client_delete.png); }
+
+.project { background-image: url(icons/project.png); }
+.project-add { background-image: url(icons/project_add.png); }
+.project-delete { background-image: url(icons/project_edit.png); }
+.project-edit { background-image: url(icons/project_delete.png); }
+
+.task { background-image: url(icons/task.png); }
+.task-add { background-image: url(icons/task_add.png); }
+.task-delete { background-image: url(icons/task_edit.png); }
+.task-edit { background-image: url(icons/task_delete.png); }
+
+.entry { background-image: url(icons/entry.png); }
+.entry-add { background-image: url(icons/entry_add.png); }
+.entry-delete { background-image: url(icons/entry_edit.png); }
+.entry-edit { background-image: url(icons/entry_delete.png); }
+
+.user { background-image: url(icons/user.png); }
+.user-add { background-image: url(icons/user_add.png); }
+.user-delete { background-image: url(icons/user_edit.png); }
+.user-edit { background-image: url(icons/user_delete.png); }
