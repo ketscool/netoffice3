@@ -15,7 +15,7 @@
 * { margin: 0; padding: 0; outline: 0 }
 
 body {
-	background: #CCC url(../img/bg.gif) repeat-x;
+	background: #CCC url(img/bg.gif) repeat-x;
 	font: 12px/170% 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: #6B6B6B; 
 	text-align: center;	
@@ -118,7 +118,7 @@ blockquote {
 	font-family: Georgia, 'Times New Roman', Times, serif;		
 	color: #80614D;	
 	border: 1px solid #EEE8E1; 
-	background: #FAF7F5 url(../img/quote.gif) no-repeat 15px 15px;
+	background: #FAF7F5 url(img/quote.gif) no-repeat 15px 15px;
 }
 
 /* start - table */
@@ -201,7 +201,7 @@ input.button {
 #wrap {
 	position: relative;
 	width: 952px;
-	background: #FFF url(../img/wrap.gif) repeat-y center top;
+	background: #FFF url(img/wrap.gif) repeat-y center top;
 	margin: 40px auto 30px auto;
 	text-align: left;	
 }
@@ -215,7 +215,7 @@ input.button {
 	position: relative;
 	width: 952px;
 	height: 245px;
-	background: #8AB84B url(../img/header.jpg) no-repeat;	
+	background: #8AB84B url(img/header.jpg) no-repeat;	
 	color: #fff;	
 	padding: 0;	
 	margin: 0;	
@@ -247,7 +247,7 @@ input.button {
  	position: absolute;
 	margin: 0;
 	padding: 30px 15px 8px 15px;
-	background: #74A838 url(../img/top-menu.gif) repeat-x;
+	background: #74A838 url(img/top-menu.gif) repeat-x;
 	font-family: 'Trebuchet MS', Arial, Sans-serif;
 	color: #FFF;
 	
@@ -267,7 +267,7 @@ input.button {
 	padding: 0;	margin: 0;
 	width: 952px;
 	height: 50px;
-	background: #988060 url(../img/nav.gif) no-repeat;		
+	background: #988060 url(img/nav.gif) no-repeat;		
 }
 #nav ul {
 	float: left;	
@@ -293,11 +293,11 @@ input.button {
 	color: #E7FAA9;	
 }
 #nav ul li#current {
-	background: transparent url(../img/left-tab.gif) no-repeat;	
+	background: transparent url(img/left-tab.gif) no-repeat;	
 }
 #nav ul li#current a {	
 	color: #4B3D2C;
-	background: transparent url(../img/right-tab.gif) no-repeat right top;	
+	background: transparent url(img/right-tab.gif) no-repeat right top;	
 }
 
 /* Main Column */
@@ -320,7 +320,7 @@ input.button {
 	text-decoration: none;		
 }
 #main ul li {
-	list-style-image: url(../img/bullet.gif);
+	list-style-image: url(img/bullet.gif);
 }
 
 #sidebar {
@@ -380,7 +380,7 @@ input.button {
 	padding: 0; margin: 20px 0 30px 10px;
 	border: none;
 	width: 270px; height: 33px;
-	background: #F2F0F0 url(../img/qsearch.gif) no-repeat;		
+	background: #F2F0F0 url(img/qsearch.gif) no-repeat;		
 }
 #sidebar form#qsearch p {
 	margin: 0; padding: 0;		
@@ -411,7 +411,7 @@ input.button {
 	width: 952px;
 	margin: 0;
 	padding: 30px 0 25px 0;
-	background: #CCC url(../img/footer-bottom.gif) no-repeat left top;			
+	background: #CCC url(img/footer-bottom.gif) no-repeat left top;			
 	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
 	font-size: 0.95em;
 	color: #777;	
@@ -438,27 +438,27 @@ input.button {
 .post-footer .date{ 
 	margin: 0 10px 0 5px;	
 	padding: 7px;
-	background: #FAF7F5 url(../img/clock.gif) no-repeat 0 2px;
+	background: #FAF7F5 url(img/clock.gif) no-repeat 0 2px;
 	padding-left: 30px;
 }
 .post-footer a.comments { 
 	margin: 0 10px 0 5px;	
 	padding: 7px 5px;
-	background: #FAF7F5 url(../img/comments.gif) no-repeat 0 2px;
+	background: #FAF7F5 url(img/comments.gif) no-repeat 0 2px;
 	padding-left: 30px;
 	color: #977C57;
 }
 .post-footer a.readmore { 
 	margin: 0 10px 0 5px;	
 	padding: 7px 5px;
-	background: #FAF7F5 url(../img/doc.gif) no-repeat 0 2px;
+	background: #FAF7F5 url(img/doc.gif) no-repeat 0 2px;
 	padding-left: 30px;
 	color: #977C57;
 }
 .post-footer a.edit { 
 	margin: 0 10px 0 5px;	
 	padding: 7px 5px;
-	background: #FAF7F5 url(../img/edit-doc.gif) no-repeat 0 2px;
+	background: #FAF7F5 url(img/edit-doc.gif) no-repeat 0 2px;
 	padding-left: 30px;
 	color: #977C57;
 }
@@ -540,7 +540,7 @@ ol.commentlist {
 }
 .error strong {
 	padding: 0 0 0 20px;
-	background: url('../img/error.png') left center no-repeat;
+	background: url(img/error.png) left center no-repeat;
 }
 
 /* Cake debugging */
