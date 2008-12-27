@@ -165,6 +165,7 @@ form p {
 label {
 	font-weight: bold;
 	color: #A7743B;
+	padding-right: 10px;
 }
 input, select, textarea {
 	margin: 5px 0;
@@ -173,12 +174,10 @@ input, select, textarea {
 	border-width: 1px;
 	border-style: solid;
   	border-color: #d4d4d4 #ebebeb #ebebeb #d4d4d4; 
+	width: 455px;
 }
 option { padding-right: 0.5em; } 
 
-#name, #email, #message, #website{
-	width: 455px;
-}
 input.button { 
 	font: bold 12px Arial, Sans-serif; 
 	height: 30px;
