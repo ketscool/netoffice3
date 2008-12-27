@@ -1,6 +1,13 @@
-<IfModule mod_rewrite.c>
+/* If you get a 500 server error, uncomment
+ * the RewriteBase line in the following files
+ * - /.htaccess
+ * - /app/.htaccess
+ * - /app/webroot/.htaccess
+ */
+ 
+ <IfModule mod_rewrite.c>
     RewriteEngine on
-    RewriteBase /
+    /* RewriteBase / */
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    (.*) webroot/$1    [L]
 </IfModule>
