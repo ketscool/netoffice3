@@ -1,13 +1,5 @@
-/* If you get a 500 server error, uncomment
- * the RewriteBase line in the following files
- * - /.htaccess
- * - /app/.htaccess
- * - /app/webroot/.htaccess
- */
-
 <IfModule mod_rewrite.c>
    RewriteEngine on
-   /* RewriteBase / */
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
 </IfModule>
