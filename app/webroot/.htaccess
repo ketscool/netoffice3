@@ -1,6 +1,13 @@
-<IfModule mod_rewrite.c>
+/* If you get a 500 server error, uncomment
+ * the RewriteBase line in the following files
+ * - /.htaccess
+ * - /app/.htaccess
+ * - /app/webroot/.htaccess
+ */
+ 
+ <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /
+    /* RewriteBase / */
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
