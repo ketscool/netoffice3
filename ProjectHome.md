@@ -1,0 +1,3 @@
+Online project management with team collaboration, user management, multiple access levels, tasks, projects, and time tracking, task change history, files approval tracking, notes, client project sites, CRM, Gantt graphs...
+
+The overall concepts is to create a CMS specifically designed for the taxonomy of service based businesses (Consultants in particular).
